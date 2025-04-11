@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		CD5E53D92DA9AA3900FFA906 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD5E53C32DA9AA3800FFA906 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD5E53CA2DA9AA3800FFA906;
+			remoteInfo = Escavapp;
+		};
+		CD5E53E32DA9AA3900FFA906 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD5E53C32DA9AA3800FFA906 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD5E53CA2DA9AA3800FFA906;
+			remoteInfo = Escavapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD5E53CB2DA9AA3800FFA906 /* Escavapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Escavapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD5E53D82DA9AA3900FFA906 /* EscavappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EscavappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD5E53E22DA9AA3900FFA906 /* EscavappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EscavappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CD5E53CD2DA9AA3800FFA906 /* Escavapp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Escavapp;
+			sourceTree = "<group>";
+		};
+		CD5E53DB2DA9AA3900FFA906 /* EscavappTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = EscavappTests;
+			sourceTree = "<group>";
+		};
+		CD5E53E52DA9AA3900FFA906 /* EscavappUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = EscavappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD5E53C82DA9AA3800FFA906 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5E53D52DA9AA3900FFA906 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5E53DF2DA9AA3900FFA906 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD5E53C22DA9AA3800FFA906 = {
+			isa = PBXGroup;
+			children = (
+				CD5E53CD2DA9AA3800FFA906 /* Escavapp */,
+				CD5E53DB2DA9AA3900FFA906 /* EscavappTests */,
+				CD5E53E52DA9AA3900FFA906 /* EscavappUITests */,
+				CD5E53CC2DA9AA3800FFA906 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD5E53CC2DA9AA3800FFA906 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD5E53CB2DA9AA3800FFA906 /* Escavapp.app */,
+				CD5E53D82DA9AA3900FFA906 /* EscavappTests.xctest */,
+				CD5E53E22DA9AA3900FFA906 /* EscavappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD5E53CA2DA9AA3800FFA906 /* Escavapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD5E53EC2DA9AA3900FFA906 /* Build configuration list for PBXNativeTarget "Escavapp" */;
+			buildPhases = (
+				CD5E53C72DA9AA3800FFA906 /* Sources */,
+				CD5E53C82DA9AA3800FFA906 /* Frameworks */,
+				CD5E53C92DA9AA3800FFA906 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CD5E53CD2DA9AA3800FFA906 /* Escavapp */,
+			);
+			name = Escavapp;
+			packageProductDependencies = (
+			);
+			productName = Escavapp;
+			productReference = CD5E53CB2DA9AA3800FFA906 /* Escavapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD5E53D72DA9AA3900FFA906 /* EscavappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD5E53EF2DA9AA3900FFA906 /* Build configuration list for PBXNativeTarget "EscavappTests" */;
+			buildPhases = (
+				CD5E53D42DA9AA3900FFA906 /* Sources */,
+				CD5E53D52DA9AA3900FFA906 /* Frameworks */,
+				CD5E53D62DA9AA3900FFA906 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD5E53DA2DA9AA3900FFA906 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CD5E53DB2DA9AA3900FFA906 /* EscavappTests */,
+			);
+			name = EscavappTests;
+			packageProductDependencies = (
+			);
+			productName = EscavappTests;
+			productReference = CD5E53D82DA9AA3900FFA906 /* EscavappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD5E53E12DA9AA3900FFA906 /* EscavappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD5E53F22DA9AA3900FFA906 /* Build configuration list for PBXNativeTarget "EscavappUITests" */;
+			buildPhases = (
+				CD5E53DE2DA9AA3900FFA906 /* Sources */,
+				CD5E53DF2DA9AA3900FFA906 /* Frameworks */,
+				CD5E53E02DA9AA3900FFA906 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD5E53E42DA9AA3900FFA906 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CD5E53E52DA9AA3900FFA906 /* EscavappUITests */,
+			);
+			name = EscavappUITests;
+			packageProductDependencies = (
+			);
+			productName = EscavappUITests;
+			productReference = CD5E53E22DA9AA3900FFA906 /* EscavappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD5E53C32DA9AA3800FFA906 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					CD5E53CA2DA9AA3800FFA906 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					CD5E53D72DA9AA3900FFA906 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = CD5E53CA2DA9AA3800FFA906;
+					};
+					CD5E53E12DA9AA3900FFA906 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = CD5E53CA2DA9AA3800FFA906;
+					};
+				};
+			};
+			buildConfigurationList = CD5E53C62DA9AA3800FFA906 /* Build configuration list for PBXProject "Escavapp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD5E53C22DA9AA3800FFA906;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CD5E53CC2DA9AA3800FFA906 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD5E53CA2DA9AA3800FFA906 /* Escavapp */,
+				CD5E53D72DA9AA3900FFA906 /* EscavappTests */,
+				CD5E53E12DA9AA3900FFA906 /* EscavappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD5E53C92DA9AA3800FFA906 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5E53D62DA9AA3900FFA906 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5E53E02DA9AA3900FFA906 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD5E53C72DA9AA3800FFA906 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5E53D42DA9AA3900FFA906 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5E53DE2DA9AA3900FFA906 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD5E53DA2DA9AA3900FFA906 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD5E53CA2DA9AA3800FFA906 /* Escavapp */;
+			targetProxy = CD5E53D92DA9AA3900FFA906 /* PBXContainerItemProxy */;
+		};
+		CD5E53E42DA9AA3900FFA906 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD5E53CA2DA9AA3800FFA906 /* Escavapp */;
+			targetProxy = CD5E53E32DA9AA3900FFA906 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CD5E53EA2DA9AA3900FFA906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD5E53EB2DA9AA3900FFA906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD5E53ED2DA9AA3900FFA906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = YARN.Escavapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD5E53EE2DA9AA3900FFA906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = YARN.Escavapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD5E53F02DA9AA3900FFA906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = YARN.EscavappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Escavapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Escavapp";
+			};
+			name = Debug;
+		};
+		CD5E53F12DA9AA3900FFA906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = YARN.EscavappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Escavapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Escavapp";
+			};
+			name = Release;
+		};
+		CD5E53F32DA9AA3900FFA906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = YARN.EscavappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Escavapp;
+			};
+			name = Debug;
+		};
+		CD5E53F42DA9AA3900FFA906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = YARN.EscavappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Escavapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD5E53C62DA9AA3800FFA906 /* Build configuration list for PBXProject "Escavapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD5E53EA2DA9AA3900FFA906 /* Debug */,
+				CD5E53EB2DA9AA3900FFA906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD5E53EC2DA9AA3900FFA906 /* Build configuration list for PBXNativeTarget "Escavapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD5E53ED2DA9AA3900FFA906 /* Debug */,
+				CD5E53EE2DA9AA3900FFA906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD5E53EF2DA9AA3900FFA906 /* Build configuration list for PBXNativeTarget "EscavappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD5E53F02DA9AA3900FFA906 /* Debug */,
+				CD5E53F12DA9AA3900FFA906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD5E53F22DA9AA3900FFA906 /* Build configuration list for PBXNativeTarget "EscavappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD5E53F32DA9AA3900FFA906 /* Debug */,
+				CD5E53F42DA9AA3900FFA906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD5E53C32DA9AA3800FFA906 /* Project object */;
+}
